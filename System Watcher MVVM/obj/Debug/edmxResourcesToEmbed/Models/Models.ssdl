@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ModelsStoreContainer">
+    <EntitySet Name="Computers" EntityType="Models.Store.Computers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Groups" EntityType="Models.Store.Groups" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="GroupsComputer" Association="Models.Store.GroupsComputer">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Computer" EntitySet="Computers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Computers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LastLogon" Type="datetime" Nullable="true" />
+    <Property Name="EnabledInAD" Type="bit" Nullable="true" />
+    <Property Name="IsOnline" Type="bit" Nullable="true" />
+    <Property Name="GroupsId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Owner" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="BuildingFloor" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <Association Name="GroupsComputer">
+    <End Role="Groups" Type="Models.Store.Groups" Multiplicity="1" />
+    <End Role="Computer" Type="Models.Store.Computers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Computer">
+        <PropertyRef Name="GroupsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

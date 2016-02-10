@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Models" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="ModelsContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Computers" EntityType="Models.Computer" />
+    <EntitySet Name="Groups" EntityType="Models.Group" />
+    <AssociationSet Name="GroupsComputer" Association="Models.GroupsComputer">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Computer" EntitySet="Computers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Computer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <Property Type="DateTime" Name="LastLogon" Nullable="true" />
+    <Property Type="Boolean" Name="EnabledInAD" Nullable="true" />
+    <Property Type="Boolean" Name="IsOnline" Nullable="true" />
+    <NavigationProperty Name="Group" Relationship="Models.GroupsComputer" FromRole="Computer" ToRole="Groups" />
+    <Property Type="Int32" Name="GroupsId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Owner" Nullable="true" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <Property Type="String" Name="BuildingFloor" Nullable="true" />
+    <NavigationProperty Name="Computers" Relationship="Models.GroupsComputer" FromRole="Groups" ToRole="Computer" />
+  </EntityType>
+  <Association Name="GroupsComputer">
+    <End Type="Models.Group" Role="Groups" Multiplicity="1" />
+    <End Type="Models.Computer" Role="Computer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Computer">
+        <PropertyRef Name="GroupsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

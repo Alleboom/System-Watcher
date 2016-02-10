@@ -1,0 +1,88 @@
+
+-- --------------------------------------------------
+-- Entity Designer DDL Script for SQL Server Compact Edition
+-- --------------------------------------------------
+-- Date Created: 01/04/2016 14:14:06
+-- Generated from EDMX file: D:\System Watcher MVVM\System Watcher MVVM\Models\Models.edmx
+-- --------------------------------------------------
+
+
+-- --------------------------------------------------
+-- Dropping existing FOREIGN KEY constraints
+-- NOTE: if the constraint does not exist, an ignorable error will be reported.
+-- --------------------------------------------------
+
+    ALTER TABLE [Computers] DROP CONSTRAINT [FK_GroupsComputer];
+GO
+
+-- --------------------------------------------------
+-- Dropping existing tables
+-- NOTE: if the table does not exist, an ignorable error will be reported.
+-- --------------------------------------------------
+
+    DROP TABLE [Computers];
+GO
+    DROP TABLE [Groups];
+GO
+
+-- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'Computers'
+CREATE TABLE [Computers] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Name] nvarchar(4000)  NOT NULL,
+    [LastLogon] datetime  NULL,
+    [EnabledInAD] bit  NULL,
+    [IsOnline] bit  NULL,
+    [GroupsId] int  NOT NULL
+);
+GO
+
+-- Creating table 'Groups'
+CREATE TABLE [Groups] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Owner] nvarchar(4000)  NULL,
+    [Name] nvarchar(4000)  NOT NULL,
+    [BuildingFloor] nvarchar(4000)  NULL
+);
+GO
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on [Id] in table 'Computers'
+ALTER TABLE [Computers]
+ADD CONSTRAINT [PK_Computers]
+    PRIMARY KEY ([Id] );
+GO
+
+-- Creating primary key on [Id] in table 'Groups'
+ALTER TABLE [Groups]
+ADD CONSTRAINT [PK_Groups]
+    PRIMARY KEY ([Id] );
+GO
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- Creating foreign key on [GroupsId] in table 'Computers'
+ALTER TABLE [Computers]
+ADD CONSTRAINT [FK_GroupsComputer]
+    FOREIGN KEY ([GroupsId])
+    REFERENCES [Groups]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_GroupsComputer'
+CREATE INDEX [IX_FK_GroupsComputer]
+ON [Computers]
+    ([GroupsId]);
+GO
+
+-- --------------------------------------------------
+-- Script has ended
+-- --------------------------------------------------

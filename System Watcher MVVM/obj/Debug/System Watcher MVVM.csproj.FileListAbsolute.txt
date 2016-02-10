@@ -1,0 +1,185 @@
+c:\users\zacha46.mbulogin\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe.config
+c:\users\zacha46.mbulogin\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe
+c:\users\zacha46.mbulogin\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.pdb
+c:\users\zacha46.mbulogin\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\App.g.cs
+c:\users\zacha46.mbulogin\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM_MarkupCompile.cache
+c:\users\zacha46.mbulogin\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\System_Watcher_MVVM.Properties.Resources.resources
+c:\users\zacha46.mbulogin\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.csproj.GenerateResource.Cache
+c:\users\zacha46.mbulogin\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.exe
+c:\users\zacha46.mbulogin\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.pdb
+C:\Users\zacha46.MBULOGIN\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\zacha46.MBULOGIN\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM_MarkupCompile.lref
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.dll
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.xml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\App.baml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.g.resources
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.dll
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.xml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM_Content.g.cs
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\MainView.baml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\MainView.g.cs
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Lists\GroupsComputersView.baml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Lists\GroupsComputersView.g.cs
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Groups\GroupFormView.baml
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\AddGroupView.g.cs
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Groups\GroupFormView.g.cs
+C:\Users\zacha46.MBULOGIN\Documents\Visual Studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\AddGroupView.baml
+C:\Users\zacha46.MBULOGIN\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\EditGroupView.g.cs
+C:\Users\zacha46.MBULOGIN\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\EditGroupView.baml
+C:\Users\zacha46.MBULOGIN\documents\visual studio 2012\Projects\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.csprojResolveAssemblyReference.cache
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe.config
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.exe
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.pdb
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.pdb
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.dll
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.Platform.dll
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.dll
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.SqlServer.dll
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Microsoft.Expression.Interactions.dll
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System.Windows.Interactivity.dll
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.xml
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.Platform.xml
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.xml
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.SqlServer.xml
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Microsoft.Expression.Interactions.xml
+U:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System.Windows.Interactivity.xml
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.csprojResolveAssemblyReference.cache
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Groups\GroupFormView.baml
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\AddGroupView.g.cs
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\EditGroupView.g.cs
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Groups\GroupFormView.g.cs
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Lists\GroupsComputersView.g.cs
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\MainView.g.cs
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\App.g.cs
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM_Content.g.cs
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM_MarkupCompile.cache
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM_MarkupCompile.lref
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\App.baml
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\AddGroupView.baml
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\EditGroupView.baml
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Lists\GroupsComputersView.baml
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\MainView.baml
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.g.resources
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System_Watcher_MVVM.Properties.Resources.resources
+U:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.csproj.GenerateResource.Cache
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe.config
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe.manifest
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.application
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System Watcher MVVM.pdb
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.Platform.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.SqlServer.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System.Windows.Interactivity.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Caliburn.Micro.Platform.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\EntityFramework.SqlServer.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\System.Windows.Interactivity.xml
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Groups\GroupFormView.baml
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\AddGroupView.g.cs
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\EditGroupView.g.cs
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Groups\GroupFormView.g.cs
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Lists\GroupsComputersView.g.cs
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\MainView.g.cs
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\App.g.cs
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM_Content.g.cs
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM_MarkupCompile.cache
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM_MarkupCompile.lref
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\App.baml
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\AddGroupView.baml
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\EditGroupView.baml
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\Lists\GroupsComputersView.baml
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\Views\MainView.baml
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.g.resources
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System_Watcher_MVVM.Properties.Resources.resources
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.csproj.GenerateResource.Cache
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.exe.manifest
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.application
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.exe
+D:\System Watcher MVVM\System Watcher MVVM\obj\Debug\System Watcher MVVM.pdb
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\PdfSharp.Charting.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\PdfSharp.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\PdfSharp.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\PdfSharp.Charting.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\de\PdfSharp.resources.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\de\PdfSharp.Charting.resources.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\MigraDoc.Rendering.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\MigraDoc.RtfRendering.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\MigraDoc.DocumentObjectModel.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\MigraDoc.Rendering.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\MigraDoc.RtfRendering.xml
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\de\MigraDoc.Rendering.resources.dll
+D:\System Watcher MVVM\System Watcher MVVM\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe.config
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe.manifest
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\System Watcher MVVM.application
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\System Watcher MVVM.exe
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\System Watcher MVVM.pdb
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\Caliburn.Micro.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\Caliburn.Micro.Platform.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\EntityFramework.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\EntityFramework.SqlServer.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\MigraDoc.Rendering.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\MigraDoc.RtfRendering.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\PdfSharp.Charting.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\PdfSharp.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\System.Windows.Interactivity.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\Caliburn.Micro.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\Caliburn.Micro.Platform.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\EntityFramework.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\EntityFramework.SqlServer.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\MigraDoc.DocumentObjectModel.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\MigraDoc.Rendering.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\MigraDoc.RtfRendering.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\PdfSharp.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\PdfSharp.Charting.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\System.Windows.Interactivity.xml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\de\MigraDoc.Rendering.resources.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\de\PdfSharp.resources.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\bin\Debug\de\PdfSharp.Charting.resources.dll
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM.csprojResolveAssemblyReference.cache
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\Groups\GroupFormView.baml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\AddGroupView.g.cs
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\EditGroupView.g.cs
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\Groups\GroupFormView.g.cs
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\Lists\GroupsComputersView.g.cs
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\MainView.g.cs
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\App.g.cs
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM_Content.g.cs
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM_MarkupCompile.cache
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM_MarkupCompile.lref
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\App.baml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\AddGroupView.baml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\EditGroupView.baml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\Lists\GroupsComputersView.baml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\Views\MainView.baml
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM.g.resources
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System_Watcher_MVVM.Properties.Resources.resources
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM.csproj.GenerateResource.Cache
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM.exe.manifest
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM.application
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM.exe
+D:\System Watcher MVVM - Copy\System Watcher MVVM\obj\Debug\System Watcher MVVM.pdb

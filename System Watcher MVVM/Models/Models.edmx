@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ModelsStoreContainer">
+    <EntitySet Name="Computers" EntityType="Models.Store.Computers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Groups" EntityType="Models.Store.Groups" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="GroupsComputer" Association="Models.Store.GroupsComputer">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Computer" EntitySet="Computers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Computers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LastLogon" Type="datetime" Nullable="true" />
+    <Property Name="EnabledInAD" Type="bit" Nullable="true" />
+    <Property Name="IsOnline" Type="bit" Nullable="true" />
+    <Property Name="GroupsId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Owner" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="BuildingFloor" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <Association Name="GroupsComputer">
+    <End Role="Groups" Type="Models.Store.Groups" Multiplicity="1" />
+    <End Role="Computer" Type="Models.Store.Computers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Computer">
+        <PropertyRef Name="GroupsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Models" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" >
+        <EntityContainer Name="ModelsContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Computers" EntityType="Models.Computer" />
+          <EntitySet Name="Groups" EntityType="Models.Group" />
+          <AssociationSet Name="GroupsComputer" Association="Models.GroupsComputer">
+            <End Role="Groups" EntitySet="Groups" />
+            <End Role="Computer" EntitySet="Computers" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Computer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" Nullable="false" />
+          <Property Type="DateTime" Name="LastLogon" Nullable="true" />
+          <Property Type="Boolean" Name="EnabledInAD" Nullable="true" />
+          <Property Type="Boolean" Name="IsOnline" Nullable="true" />
+          <NavigationProperty Name="Group" Relationship="Models.GroupsComputer" FromRole="Computer" ToRole="Groups" />
+          <Property Type="Int32" Name="GroupsId" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Group">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Owner" Nullable="true" />
+          <Property Type="String" Name="Name" Nullable="false" />
+          <Property Type="String" Name="BuildingFloor" Nullable="true" />
+          <NavigationProperty Name="Computers" Relationship="Models.GroupsComputer" FromRole="Groups" ToRole="Computer" />
+        </EntityType>
+        <Association Name="GroupsComputer">
+          <End Type="Models.Group" Role="Groups" Multiplicity="1" />
+          <End Type="Models.Computer" Role="Computer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Groups">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Computer">
+              <PropertyRef Name="GroupsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelsStoreContainer" CdmEntityContainer="ModelsContainer">
+    <EntitySetMapping Name="Computers">
+      <EntityTypeMapping TypeName="IsTypeOf(Models.Computer)">
+        <MappingFragment StoreEntitySet="Computers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LastLogon" ColumnName="LastLogon" />
+          <ScalarProperty Name="EnabledInAD" ColumnName="EnabledInAD" />
+          <ScalarProperty Name="IsOnline" ColumnName="IsOnline" />
+          <ScalarProperty Name="GroupsId" ColumnName="GroupsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="IsTypeOf(Models.Group)">
+        <MappingFragment StoreEntitySet="Groups">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BuildingFloor" ColumnName="BuildingFloor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

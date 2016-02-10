@@ -1,0 +1,11 @@
+﻿<Window x:Class="System_Watcher_MVVM.Views.AddGroupView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:UC="clr-namespace:System_Watcher_MVVM.Views.Groups"
+        xmlns:cal="http://www.caliburnproject.org"
+        Title="Add Group" Height="Auto" Width="300" VerticalContentAlignment="Top" SizeToContent="Height" Icon="/System Watcher MVVM;component/watchdog.ico">
+    <StackPanel Height="Auto" Margin="5">
+        <UC:GroupFormView Margin="5" cal:Bind.Model="{Binding GroupVM}"/>
+        <Button Content="Save" x:Name="SaveNewGroup"/>
+    </StackPanel>
+</Window>

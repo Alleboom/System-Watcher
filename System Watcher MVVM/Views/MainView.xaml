@@ -1,0 +1,24 @@
+﻿<Window x:Class="System_Watcher_MVVM.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:listControls="clr-namespace:System_Watcher_MVVM.Views.Lists"
+        xmlns:cal="http://www.caliburnproject.org"
+        Title="System Watcher" Height="400" Width="Auto" SizeToContent="Width" ResizeMode="CanMinimize" Icon="/System Watcher MVVM;component/watchdog.ico">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <listControls:GroupsComputersView cal:Bind.Model="{Binding GroupsComputersVM}"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" FlowDirection="RightToLeft" Margin="5">
+            <Button x:Name="RemoveGroup" Content="Remove Group" />
+            <Button x:Name="OpenEditGroup" Content="Edit Group" Margin="5,0,0,0"/>
+            <Button x:Name="OpenAddGroup" Content="Add Group" Margin="5,0,0,0"/>
+            <StackPanel Orientation="Horizontal" Margin="20,0,0,0" HorizontalAlignment="Left" >
+                <ProgressBar Maximum="{Binding MaxComputerCount}" Value="{Binding CurrentCount}" MinWidth="100" Width="Auto"/>
+                <Button x:Name="RefreshCurrent" Content="Refresh Selected Group" Margin="5,0,0,0" />
+                <Button x:Name="RefreshInfoAll" Content="Refresh All" Margin="5,0,0,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
